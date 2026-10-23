@@ -25,8 +25,8 @@ Put the CSV in the same folder as `app.py`. It needs these columns: `customer_id
 
 You need your own free ngrok account and token. Do not use anyone else's.
 
-1. Open Google Colab and upload the notebook (File > Upload notebook).
-2. Upload `app.py` and `cloudcore_churn_predictions.csv` to the Colab session files (the folder icon in the left sidebar).
+1. On GitHub, open the `Group_Dashboard.ipynb`, and download with the "Download raw file" button (the download icon at the top right of the file view). Treat the repository as a template: run your own copy in your own Colab and don't change the master files in the repository unless the team agrees.
+2. Open Google Colab and upload the notebook you downloaded (File > Upload notebook). Then upload cloudcore_churn_predictions.csv (from the team's shared folder) to the Colab when asked to. The notebook can only see files that are in the Colab session.
 3. Get your own ngrok authtoken from your ngrok dashboard.
 4. Run the cells in order: install the packages, start ngrok, then start Streamlit. Open the public link that ngrok prints.
 
