@@ -1,0 +1,283 @@
+churn_flag,industry,customer_id,company_name,Logistic Regression,Logistic Regression (0),Logistic Regression (1),tenure_months,monthly_recurring_revenue,product_count,support_tier,region
+0 1,Education Energy Finance Healthcare Logistics Manufacturing Media Retail Technology,string,string,0 1,continuous,continuous,continuous,continuous,continuous,Basic Enterprise Premium Standard,San\ Francisco Singapore Sydney
+class,meta,meta,meta,meta,meta,meta,,,,,
+0,Education,C0002,Laurel Institute,0,0.582087,0.417913,7,1360,1,Standard,Sydney
+0,Energy,C0005,Quartz Utilities,1,0.452296,0.547704,19,2160,1,Basic,Sydney
+1,Technology,C0012,Onyx Digital,1,0.163428,0.836572,18,1560,1,Basic,San Francisco
+0,Retail,C0017,Cedar Goods,0,0.95744,0.0425599,33,4540,3,Standard,Singapore
+0,Technology,C0018,Jade Software,0,0.843822,0.156178,14,1630,2,Standard,Singapore
+0,Logistics,C0019,Orion Cargo,0,0.984493,0.0155065,30,27510,3,Enterprise,Singapore
+1,Healthcare,C0024,Foothill BioSciences,1,0.395276,0.604724,2,1770,1,Basic,Singapore
+1,Media,C0054,Pinnacle Content,0,0.609651,0.390349,28,6680,2,Standard,San Francisco
+0,Education,C0064,Cascade Education,0,0.904087,0.0959134,19,6130,3,Standard,Sydney
+0,Manufacturing,C0070,Echo Manufacturing,0,0.841854,0.158146,23,7280,2,Standard,Sydney
+0,Healthcare,C0084,Marigold Medical,0,0.861642,0.138358,27,9110,2,Standard,Sydney
+0,Education,C0090,Vertex Institute,0,0.914602,0.085398,12,6100,3,Standard,Singapore
+0,Finance,C0091,Northwind Partners,0,0.992016,0.0079842,57,23430,3,Premium,Singapore
+0,Education,C0094,Atlas Institute,0,0.548263,0.451737,3,2160,1,Standard,Sydney
+1,Healthcare,C0102,Quartz Therapeutics,1,0.458191,0.541809,11,6210,2,Standard,San Francisco
+0,Manufacturing,C0108,Meridian Industries,0,0.721282,0.278718,22,8130,2,Premium,San Francisco
+0,Education,C0118,Marigold Collegiate,0,0.807853,0.192147,36,5790,2,Premium,San Francisco
+0,Finance,C0147,Lumen Partners,0,0.731201,0.268799,14,6710,1,Standard,Singapore
+1,Education,C0160,Sterling Learning,0,0.619316,0.380684,11,2970,1,Standard,Sydney
+1,Finance,C0170,Cedar Financial,1,0.324562,0.675438,4,1720,1,Basic,Sydney
+0,Media,C0190,Nimbus Content,1,0.479955,0.520045,2,1870,2,Basic,Sydney
+0,Logistics,C0213,Vanguard Cargo,0,0.551638,0.448362,21,8410,2,Standard,San Francisco
+0,Media,C0230,Verdant Broadcast,0,0.844179,0.155821,24,6640,1,Premium,Sydney
+0,Education,C0238,Echo Collegiate,1,0.456665,0.543335,9,1800,1,Basic,Singapore
+1,Energy,C0245,Nimbus Renewables,0,0.619194,0.380806,9,6510,3,Standard,San Francisco
+0,Healthcare,C0254,Northwind Care,0,0.804552,0.195448,17,1560,2,Standard,Sydney
+1,Finance,C0260,Helix Holdings,1,0.132149,0.867851,11,1840,1,Basic,San Francisco
+0,Healthcare,C0279,Cedar Therapeutics,0,0.99262,0.00738027,52,22200,3,Enterprise,Singapore
+0,Finance,C0003,Foothill Financial,0,0.809139,0.190861,25,5010,1,Standard,Singapore
+0,Education,C0014,Vertex Education,0,0.92164,0.07836,24,6410,3,Standard,Sydney
+0,Education,C0022,Silverline Academy,0,0.899102,0.100898,16,7060,3,Standard,Sydney
+1,Technology,C0029,Ironwood Systems,0,0.623725,0.376275,9,1430,1,Standard,Sydney
+1,Healthcare,C0042,Verdant Therapeutics,1,0.459493,0.540507,15,1660,1,Basic,Sydney
+1,Finance,C0048,Cascade Partners,0,0.843893,0.156107,14,4910,3,Basic,Singapore
+0,Media,C0056,Indigo Content,0,0.864868,0.135132,9,4200,1,Premium,Singapore
+0,Manufacturing,C0058,Nimbus Industries,0,0.983528,0.0164717,41,24680,3,Enterprise,Sydney
+0,Finance,C0059,Glacier Holdings,0,0.877543,0.122457,54,20230,2,Premium,San Francisco
+0,Technology,C0079,Onyx Technologies,0,0.870101,0.129899,16,2400,2,Standard,Singapore
+0,Logistics,C0093,Vertex Cargo,0,0.98212,0.01788,28,32720,3,Enterprise,Singapore
+0,Retail,C0120,Ironwood Retail,1,0.401192,0.598808,8,1620,1,Basic,Sydney
+0,Healthcare,C0130,Ironwood Health,0,0.703523,0.296477,21,7850,1,Standard,Sydney
+1,Finance,C0151,Vanguard Partners,0,0.530592,0.469408,11,1760,1,Basic,Singapore
+1,Manufacturing,C0165,Marigold Works,0,0.631159,0.368841,10,1720,1,Standard,Sydney
+0,Manufacturing,C0171,Foothill Manufacturing,0,0.938981,0.061019,55,21960,3,Premium,San Francisco
+0,Media,C0191,Olive Media,0,0.60201,0.39799,33,6060,2,Standard,San Francisco
+0,Logistics,C0193,Quartz Transport,0,0.946536,0.0534636,36,6380,3,Standard,Sydney
+0,Media,C0208,Orion Broadcast,0,0.986,0.0140003,35,31420,3,Enterprise,Singapore
+0,Finance,C0217,Beacon Capital,0,0.873704,0.126296,8,4580,3,Standard,Sydney
+1,Healthcare,C0219,Foothill Health,1,0.104017,0.895983,4,1620,1,Basic,San Francisco
+0,Logistics,C0222,Zenith Logistics,0,0.930071,0.069929,37,6170,2,Standard,Singapore
+0,Energy,C0234,Pioneer Energy,0,0.945691,0.054309,23,5830,3,Standard,Singapore
+0,Healthcare,C0240,Terra Care,0,0.964292,0.0357076,43,9350,2,Premium,Sydney
+0,Manufacturing,C0263,Summit Industries,0,0.939074,0.0609264,32,6680,3,Standard,Sydney
+0,Technology,C0268,Verdant Technologies,0,0.83498,0.16502,21,6110,2,Standard,Sydney
+0,Healthcare,C0273,Ironwood Medical,1,0.433839,0.566161,12,1870,1,Basic,Sydney
+1,Technology,C0274,Helix Systems,1,0.426064,0.573936,11,1570,1,Basic,Sydney
+0,Media,C0008,Juniper Broadcast,0,0.731355,0.268645,30,6570,2,Basic,Sydney
+0,Healthcare,C0010,Quartz BioSciences,0,0.845458,0.154542,31,6470,1,Standard,Singapore
+0,Finance,C0013,Cardinal Capital,0,0.959159,0.0408406,37,8000,2,Premium,Sydney
+1,Manufacturing,C0026,Orion Works,0,0.731233,0.268767,19,6430,1,Standard,Sydney
+0,Education,C0028,Driftwood Collegiate,0,0.954748,0.0452525,19,6770,3,Premium,Sydney
+0,Energy,C0033,Brightpath Utilities,0,0.985747,0.0142532,45,24190,3,Enterprise,Sydney
+0,Logistics,C0044,Verdant Logistics,0,0.936126,0.0638737,20,5690,2,Premium,Singapore
+0,Media,C0063,Nexus Media,0,0.970817,0.0291832,45,5740,3,Standard,Singapore
+0,Energy,C0083,Vanguard Power,0,0.985326,0.0146737,48,22370,3,Premium,Sydney
+1,Manufacturing,C0085,Keystone Manufacturing,1,0.121596,0.878404,10,900,1,Basic,San Francisco
+0,Manufacturing,C0096,Marigold Fabrication,1,0.447967,0.552033,10,2460,1,Basic,Singapore
+0,Finance,C0110,Jade Trust,0,0.99095,0.00904962,60,18120,3,Premium,Sydney
+0,Finance,C0116,Radiant Holdings,0,0.965067,0.0349329,41,7250,2,Premium,Sydney
+1,Logistics,C0121,Atlas Freight,0,0.51279,0.48721,34,5980,1,Standard,San Francisco
+0,Healthcare,C0125,Falcon Care,1,0.15499,0.84501,17,2560,1,Basic,San Francisco
+0,Logistics,C0131,Horizon Cargo,0,0.891505,0.108495,31,5380,2,Standard,Sydney
+0,Logistics,C0137,Cobalt Logistics,0,0.859275,0.140725,39,6490,1,Standard,Sydney
+1,Education,C0161,Lumen Learning,1,0.277926,0.722074,9,1020,1,Standard,San Francisco
+0,Manufacturing,C0174,Cascade Fabrication,0,0.734211,0.265789,14,2320,1,Standard,Singapore
+1,Energy,C0187,Anchor Power,1,0.109116,0.890884,7,2120,1,Basic,San Francisco
+0,Manufacturing,C0199,Nexus Industries,0,0.94969,0.0503097,31,6480,3,Standard,Singapore
+0,Healthcare,C0203,Cobalt Health,0,0.934343,0.0656569,24,6030,3,Standard,Singapore
+0,Education,C0223,Apex Education,0,0.906832,0.0931678,35,24370,3,Enterprise,San Francisco
+1,Energy,C0253,Granite Renewables,1,0.445237,0.554763,15,2100,1,Basic,Sydney
+0,Retail,C0258,Pinnacle Goods,0,0.798815,0.201185,13,5050,2,Standard,Sydney
+1,Energy,C0264,Foothill Utilities,1,0.492552,0.507448,32,6110,1,Standard,San Francisco
+0,Education,C0269,Pioneer Collegiate,0,0.990797,0.00920333,56,26470,3,Enterprise,Sydney
+0,Healthcare,C0280,Cedar Health,0,0.98599,0.0140098,40,17650,3,Enterprise,Singapore
+1,Logistics,C0001,Nexus Logistics,1,0.385664,0.614336,6,1920,1,Basic,Sydney
+0,Retail,C0006,Horizon Retail,0,0.923514,0.0764856,31,6520,2,Standard,Singapore
+0,Healthcare,C0031,Brightpath Care,0,0.981153,0.0188472,42,19930,3,Premium,Sydney
+0,Media,C0035,Quartz Studios,0,0.982007,0.0179933,38,18110,3,Enterprise,Sydney
+0,Retail,C0040,Glacier Markets,0,0.500391,0.499609,23,5570,2,Standard,San Francisco
+0,Media,C0045,Helix Media,0,0.919744,0.0802561,15,6620,3,Standard,Singapore
+0,Energy,C0049,Pinnacle Renewables,1,0.434302,0.565698,14,6210,1,Premium,San Francisco
+0,Manufacturing,C0050,Juniper Manufacturing,0,0.708595,0.291405,20,5470,1,Standard,Sydney
+0,Logistics,C0061,Meridian Supply,0,0.82919,0.17081,21,6300,2,Standard,Sydney
+0,Logistics,C0073,Juniper Logistics,0,0.979176,0.0208236,34,26410,3,Enterprise,Sydney
+0,Finance,C0097,Quantum Financial,0,0.959738,0.0402617,33,29480,2,Enterprise,Sydney
+1,Education,C0099,Lumen Institute,0,0.619186,0.380814,13,2330,2,Basic,Sydney
+1,Technology,C0133,Pinnacle Technologies,0,0.731574,0.268426,14,1830,2,Basic,Singapore
+0,Manufacturing,C0134,Ironwood Fabrication,0,0.684339,0.315661,26,4340,3,Standard,San Francisco
+0,Finance,C0145,Driftwood Capital,0,0.874884,0.125116,35,7220,3,Premium,San Francisco
+0,Finance,C0149,Zenith Capital,0,0.959994,0.0400055,40,6210,2,Premium,Sydney
+0,Technology,C0168,Echo Software,0,0.564008,0.435992,14,6600,3,Standard,San Francisco
+0,Logistics,C0183,Cardinal Logistics,0,0.959926,0.0400737,29,7330,2,Premium,Singapore
+1,Retail,C0189,Helix Commerce,0,0.751347,0.248653,14,6910,1,Standard,Singapore
+1,Media,C0194,Summit Media,1,0.0907889,0.909211,2,1680,1,Basic,San Francisco
+1,Technology,C0205,Cardinal Software,0,0.503002,0.496998,38,6070,1,Standard,San Francisco
+0,Media,C0232,Quantum Content,0,0.946291,0.053709,18,7910,3,Premium,Sydney
+0,Logistics,C0246,Driftwood Transport,0,0.995295,0.00470541,57,34990,3,Enterprise,Singapore
+0,Finance,C0248,Meridian Partners,0,0.970283,0.0297169,39,6770,3,Standard,Singapore
+0,Manufacturing,C0255,Glacier Materials,0,0.891074,0.108926,33,5840,2,Standard,Sydney
+0,Technology,C0257,Brightpath Software,0,0.967247,0.0327531,38,28230,2,Enterprise,Sydney
+1,Energy,C0261,Ironwood Resources,1,0.155574,0.844426,16,2340,1,Basic,San Francisco
+0,Healthcare,C0272,Summit Therapeutics,0,0.522681,0.477319,2,1270,1,Standard,Sydney
+1,Healthcare,C0030,Cardinal Therapeutics,0,0.767149,0.232851,8,5620,2,Standard,Sydney
+0,Healthcare,C0034,Silverline Therapeutics,0,0.632634,0.367366,13,2330,1,Standard,Sydney
+1,Education,C0046,Vanguard Academy,0,0.915131,0.0848688,22,7860,2,Standard,Singapore
+0,Energy,C0047,Onyx Resources,0,0.951269,0.0487306,36,6990,2,Standard,Singapore
+1,Education,C0057,Northwind Education,0,0.692803,0.307197,33,6670,2,Standard,San Francisco
+0,Media,C0065,Echo Media,0,0.981011,0.0189895,60,26190,3,Premium,San Francisco
+0,Healthcare,C0069,Latitude Medical,0,0.971554,0.0284457,36,23440,2,Premium,Sydney
+1,Energy,C0074,Magnolia Power,1,0.442092,0.557908,8,1310,1,Basic,Singapore
+0,Finance,C0080,Pinnacle Partners,0,0.843651,0.156349,31,7200,2,Basic,Singapore
+1,Education,C0086,Pinnacle Learning,1,0.0923467,0.907653,7,1960,1,Basic,San Francisco
+0,Technology,C0092,Zenith Labs,0,0.944765,0.0552352,27,6410,3,Standard,Sydney
+0,Retail,C0111,Summit Retail,0,0.983662,0.0163381,28,29300,3,Premium,Sydney
+0,Media,C0114,Glacier Broadcast,0,0.906639,0.0933615,33,6460,1,Premium,Sydney
+0,Finance,C0124,Ironwood Financial,0,0.994051,0.00594904,45,21540,3,Enterprise,Singapore
+0,Logistics,C0155,Quantum Transport,0,0.882954,0.117046,33,6150,1,Standard,Singapore
+0,Retail,C0162,Radiant Goods,0,0.982825,0.017175,48,23080,2,Premium,Sydney
+0,Manufacturing,C0172,Brightpath Fabrication,0,0.854019,0.145981,27,6530,1,Standard,Singapore
+0,Finance,C0186,Indigo Financial,0,0.837656,0.162344,8,1180,2,Standard,Singapore
+0,Education,C0200,Verdant Collegiate,0,0.766806,0.233194,16,1440,1,Standard,Singapore
+0,Manufacturing,C0204,Terra Industries,0,0.911836,0.0881642,33,8490,2,Standard,Sydney
+0,Technology,C0209,Verdant Software,0,0.988403,0.0115971,59,24370,2,Enterprise,Sydney
+0,Finance,C0215,Atlas Partners,0,0.989937,0.0100627,46,19420,3,Enterprise,Sydney
+0,Media,C0218,Latitude Media,0,0.506292,0.493708,14,1120,1,Basic,Singapore
+0,Energy,C0220,Anchor Renewables,0,0.512018,0.487982,8,1820,2,Basic,Sydney
+1,Technology,C0221,Radiant Digital,0,0.959614,0.0403861,45,19720,3,Premium,San Francisco
+1,Energy,C0235,Glacier Resources,0,0.950504,0.049496,35,8420,2,Standard,Singapore
+0,Healthcare,C0251,Terra Health,1,0.281746,0.718254,4,1530,1,Basic,Sydney
+0,Healthcare,C0256,Terra Medical,0,0.995329,0.00467058,47,24200,3,Premium,Singapore
+0,Education,C0027,Orion Collegiate,0,0.536357,0.463643,3,1400,2,Basic,Singapore
+0,Retail,C0032,Apex Markets,0,0.654669,0.345331,12,1540,1,Standard,Sydney
+0,Manufacturing,C0038,Northwind Works,0,0.961277,0.0387233,34,5950,3,Standard,Singapore
+1,Education,C0078,Indigo Education,0,0.757184,0.242816,12,7450,3,Basic,Sydney
+0,Retail,C0095,Meridian Commerce,0,0.953902,0.0460977,28,24140,2,Enterprise,Sydney
+0,Retail,C0098,Granite Goods,0,0.505983,0.494017,16,2090,1,Basic,Singapore
+0,Manufacturing,C0104,Anchor Fabrication,0,0.591486,0.408514,4,2290,1,Standard,Singapore
+0,Healthcare,C0109,Olive Care,0,0.613884,0.386116,18,6370,3,Standard,San Francisco
+0,Energy,C0117,Granite Utilities,0,0.916065,0.0839346,19,6190,3,Standard,Sydney
+0,Manufacturing,C0126,Falcon Works,1,0.357713,0.642287,3,1690,1,Basic,Singapore
+1,Manufacturing,C0132,Olive Fabrication,0,0.84335,0.15665,35,6570,1,Standard,Sydney
+0,Finance,C0138,Jade Capital,0,0.850724,0.149276,34,7740,1,Standard,Singapore
+0,Education,C0140,Beacon Education,0,0.883627,0.116373,17,7140,1,Premium,Singapore
+0,Healthcare,C0142,Keystone BioSciences,0,0.778973,0.221027,30,22020,2,Premium,San Francisco
+1,Technology,C0143,Radiant Systems,0,0.529817,0.470183,18,1930,1,Basic,Singapore
+0,Energy,C0148,Glacier Power,0,0.904039,0.0959614,24,7240,1,Premium,Sydney
+0,Logistics,C0150,Sterling Cargo,1,0.469919,0.530081,13,2480,1,Basic,Singapore
+0,Finance,C0152,Echo Capital,0,0.69662,0.30338,17,7100,1,Standard,Sydney
+0,Retail,C0163,Juniper Retail,1,0.404305,0.595695,15,3990,2,Standard,San Francisco
+1,Finance,C0164,Granite Trust,0,0.873321,0.126679,15,7440,1,Premium,Singapore
+0,Logistics,C0166,Orion Freight,0,0.991803,0.00819699,50,23620,3,Premium,Sydney
+1,Media,C0173,Helix Studios,0,0.602236,0.397764,8,6150,1,Standard,Sydney
+0,Finance,C0175,Anchor Capital,1,0.262301,0.737699,17,5510,1,Standard,San Francisco
+1,Education,C0192,Marigold Academy,1,0.410702,0.589298,16,6600,2,Standard,San Francisco
+1,Technology,C0231,Vanguard Labs,1,0.095466,0.904534,10,1940,1,Basic,San Francisco
+0,Logistics,C0239,Horizon Freight,0,0.965891,0.034109,39,4760,3,Standard,Sydney
+0,Finance,C0265,Orion Holdings,0,0.986278,0.0137219,53,29940,2,Enterprise,Singapore
+0,Finance,C0271,Olive Holdings,0,0.971858,0.0281425,39,24500,2,Premium,Sydney
+0,Energy,C0015,Lumen Power,0,0.938968,0.0610319,30,6900,3,Standard,Sydney
+0,Logistics,C0020,Radiant Transport,0,0.594305,0.405695,14,580,2,Basic,Sydney
+1,Healthcare,C0023,Orion Therapeutics,1,0.336765,0.663235,6,1970,1,Basic,Sydney
+0,Education,C0036,Glacier Learning,0,0.978419,0.0215807,45,21150,2,Premium,Singapore
+1,Retail,C0039,Keystone Markets,0,0.731425,0.268575,18,1340,1,Standard,Sydney
+0,Technology,C0060,Horizon Labs,0,0.88847,0.11153,33,8640,1,Standard,Singapore
+0,Logistics,C0072,Echo Supply,0,0.562529,0.437471,13,6650,2,Premium,San Francisco
+0,Energy,C0081,Cardinal Utilities,1,0.166779,0.833221,2,2550,1,Standard,San Francisco
+0,Healthcare,C0082,Quantum Health,0,0.862801,0.137199,24,5510,2,Standard,Sydney
+1,Logistics,C0087,Harbor Supply,1,0.313892,0.686108,4,1830,1,Basic,Sydney
+0,Retail,C0089,Juniper Markets,0,0.572354,0.427646,5,2010,1,Standard,Sydney
+0,Finance,C0107,Foothill Capital,0,0.923685,0.076315,36,4940,2,Standard,Sydney
+1,Healthcare,C0113,Apex Health,0,0.944402,0.0555984,35,6330,2,Standard,Singapore
+1,Energy,C0119,Magnolia Resources,0,0.653317,0.346683,13,6170,1,Standard,Sydney
+0,Technology,C0146,Terra Software,0,0.741163,0.258837,35,24850,2,Premium,San Francisco
+0,Manufacturing,C0156,Apex Industries,0,0.971177,0.0288235,36,4920,3,Standard,Singapore
+0,Retail,C0180,Cascade Commerce,0,0.978214,0.0217858,47,24470,2,Enterprise,Sydney
+0,Media,C0195,Kestrel Creative,0,0.523009,0.476991,9,1630,2,Basic,Sydney
+0,Manufacturing,C0196,Cedar Fabrication,0,0.56103,0.43897,35,7100,3,Basic,San Francisco
+1,Media,C0197,Silverline Media,1,0.214386,0.785614,28,5410,1,Basic,San Francisco
+0,Energy,C0207,Pioneer Resources,0,0.811876,0.188124,18,8160,2,Standard,Sydney
+0,Logistics,C0210,Lumen Transport,0,0.767299,0.232701,14,2100,1,Standard,Singapore
+0,Healthcare,C0214,Quantum Medical,0,0.973325,0.0266747,44,26720,2,Enterprise,Sydney
+0,Retail,C0233,Vanguard Markets,0,0.843495,0.156505,21,5200,2,Standard,Sydney
+1,Media,C0237,Granite Media,1,0.308289,0.691711,18,5280,1,Standard,San Francisco
+0,Manufacturing,C0247,Atlas Materials,0,0.758743,0.241257,11,5340,2,Standard,Sydney
+0,Technology,C0249,Driftwood Software,0,0.666077,0.333923,28,24200,2,Premium,San Francisco
+0,Technology,C0250,Harbor Labs,0,0.581367,0.418633,15,5730,2,Basic,Sydney
+0,Manufacturing,C0004,Meridian Works,0,0.966827,0.0331728,35,26220,2,Enterprise,Singapore
+0,Manufacturing,C0011,Jade Works,0,0.899418,0.100582,35,5190,2,Standard,Sydney
+0,Media,C0021,Glacier Studios,0,0.985035,0.0149649,48,29690,3,Enterprise,Sydney
+1,Retail,C0025,Granite Retail,1,0.349337,0.650663,19,2040,1,Standard,San Francisco
+0,Retail,C0037,Beacon Markets,0,0.944471,0.0555293,26,6250,3,Standard,Singapore
+0,Media,C0041,Falcon Content,0,0.959925,0.0400748,33,18740,2,Premium,Singapore
+1,Retail,C0055,Pioneer Stores,0,0.661905,0.338095,16,1570,2,Basic,Sydney
+0,Manufacturing,C0076,Lumen Manufacturing,0,0.860315,0.139685,26,7370,2,Standard,Sydney
+0,Manufacturing,C0101,Granite Industries,0,0.98802,0.0119799,49,23620,3,Premium,Singapore
+1,Logistics,C0103,Apex Logistics,1,0.365468,0.634532,26,5970,2,Basic,San Francisco
+1,Logistics,C0105,Summit Supply,1,0.375086,0.624914,3,1780,1,Basic,Sydney
+0,Energy,C0112,Cedar Renewables,0,0.969117,0.0308832,45,7870,2,Premium,Sydney
+0,Healthcare,C0127,Kestrel Health,0,0.992764,0.00723629,57,24330,3,Enterprise,Singapore
+0,Finance,C0129,Silverline Partners,0,0.808768,0.191232,34,7770,1,Standard,Sydney
+0,Technology,C0136,Falcon Technologies,0,0.90696,0.0930399,32,6990,1,Premium,Sydney
+0,Technology,C0139,Latitude Labs,0,0.977306,0.0226941,44,5230,2,Premium,Singapore
+0,Energy,C0153,Verdant Utilities,0,0.830816,0.169184,37,7140,2,Premium,San Francisco
+0,Education,C0154,Onyx Education,0,0.844505,0.155495,14,6280,2,Standard,Singapore
+1,Energy,C0167,Cardinal Resources,0,0.751867,0.248133,15,1550,1,Standard,Singapore
+0,Retail,C0181,Onyx Commerce,0,0.977775,0.0222252,33,15210,3,Enterprise,Sydney
+0,Manufacturing,C0198,Granite Works,0,0.914213,0.0857868,31,4670,2,Standard,Singapore
+0,Education,C0224,Magnolia Collegiate,0,0.988947,0.0110526,52,26440,3,Premium,Singapore
+0,Media,C0228,Keystone Media,0,0.924847,0.0751533,42,20600,3,Enterprise,San Francisco
+0,Education,C0242,Nimbus Learning,0,0.95886,0.0411396,34,5670,3,Standard,Singapore
+1,Finance,C0252,Quartz Partners,1,0.133985,0.866015,8,1180,1,Basic,San Francisco
+0,Finance,C0262,Apex Holdings,0,0.832892,0.167108,19,2570,2,Standard,Sydney
+0,Logistics,C0267,Vertex Freight,0,0.947218,0.0527822,53,24440,3,Enterprise,San Francisco
+1,Media,C0277,Nimbus Creative,0,0.519494,0.480506,18,880,1,Basic,Sydney
+0,Logistics,C0009,Sterling Logistics,1,0.447738,0.552262,17,4640,1,Basic,Sydney
+0,Manufacturing,C0016,Lumen Industries,0,0.988139,0.0118605,50,25360,3,Premium,Singapore
+0,Logistics,C0043,Latitude Freight,0,0.956439,0.0435612,33,7970,3,Standard,Singapore
+0,Education,C0051,Foothill Education,0,0.725175,0.274825,16,4650,1,Standard,Singapore
+0,Media,C0052,Cascade Media,1,0.471815,0.528185,12,1550,1,Basic,Singapore
+1,Finance,C0053,Silverline Capital,1,0.376269,0.623731,2,1670,1,Basic,Singapore
+0,Finance,C0067,Cascade Capital,0,0.987759,0.0122412,57,29740,3,Premium,Sydney
+0,Media,C0068,Helix Creative,0,0.936332,0.0636677,8,8850,3,Premium,Sydney
+1,Retail,C0071,Orion Markets,1,0.341865,0.658135,5,2270,1,Basic,Sydney
+1,Education,C0075,Pinnacle Academy,1,0.127131,0.872869,10,1100,1,Basic,San Francisco
+0,Healthcare,C0088,Brightpath BioSciences,1,0.417116,0.582884,13,1560,1,Basic,Sydney
+0,Technology,C0115,Lumen Labs,0,0.986506,0.0134936,47,27940,3,Enterprise,Sydney
+1,Energy,C0122,Driftwood Utilities,1,0.438907,0.561093,35,5100,2,Basic,San Francisco
+0,Technology,C0123,Quantum Systems,0,0.981157,0.0188429,59,34260,2,Enterprise,Sydney
+0,Education,C0144,Cobalt Academy,0,0.86009,0.13991,42,6870,2,Premium,San Francisco
+0,Finance,C0169,Falcon Capital,0,0.937287,0.0627134,32,26250,2,Premium,Sydney
+0,Manufacturing,C0176,Magnolia Materials,0,0.706726,0.293274,26,5290,2,Basic,Sydney
+0,Healthcare,C0177,Driftwood Medical,0,0.63422,0.36578,10,1780,2,Basic,Singapore
+1,Media,C0179,Falcon Broadcast,0,0.57548,0.42452,30,4940,3,Basic,San Francisco
+0,Energy,C0185,Glacier Renewables,0,0.977805,0.0221948,28,30250,3,Enterprise,Singapore
+0,Technology,C0201,Magnolia Digital,0,0.69293,0.30707,12,4640,1,Standard,Singapore
+0,Retail,C0212,Northwind Stores,0,0.887975,0.112025,33,20220,3,Premium,San Francisco
+0,Technology,C0227,Driftwood Digital,0,0.886119,0.113881,25,6070,2,Standard,Singapore
+1,Retail,C0229,Olive Stores,0,0.614276,0.385724,10,5560,1,Standard,Sydney
+0,Healthcare,C0241,Indigo BioSciences,0,0.956107,0.0438933,11,7430,3,Premium,Singapore
+0,Media,C0244,Laurel Content,0,0.870713,0.129287,28,6170,2,Standard,Sydney
+0,Media,C0266,Glacier Media,1,0.491585,0.508415,16,5400,2,Standard,San Francisco
+1,Retail,C0270,Onyx Retail,1,0.470097,0.529903,13,2360,2,Standard,San Francisco
+0,Media,C0007,Helix Broadcast,0,0.992117,0.00788307,58,21790,3,Enterprise,Sydney
+0,Energy,C0062,Vanguard Utilities,0,0.989169,0.0108312,45,25350,2,Premium,Singapore
+0,Technology,C0066,Quantum Labs,0,0.951135,0.0488655,34,20280,3,Premium,San Francisco
+0,Healthcare,C0077,Onyx BioSciences,0,0.994292,0.00570772,59,10510,3,Premium,Singapore
+0,Finance,C0100,Terra Trust,0,0.979774,0.0202255,23,6930,3,Premium,Sydney
+0,Education,C0106,Falcon Institute,0,0.982879,0.0171211,38,16880,2,Premium,Singapore
+0,Finance,C0128,Magnolia Partners,0,0.936673,0.0633274,32,26070,3,Enterprise,San Francisco
+0,Technology,C0135,Olive Labs,0,0.725351,0.274649,21,7200,3,Standard,San Francisco
+0,Energy,C0141,Onyx Power,0,0.583666,0.416334,2,1670,1,Standard,Sydney
+1,Healthcare,C0157,Marigold BioSciences,1,0.450025,0.549975,11,5460,1,Basic,Sydney
+0,Manufacturing,C0158,Radiant Works,0,0.992279,0.00772066,45,24120,3,Enterprise,Singapore
+0,Energy,C0159,Olive Power,0,0.953122,0.0468781,39,5790,3,Standard,Sydney
+1,Manufacturing,C0178,Cardinal Works,0,0.760648,0.239352,2,1990,2,Standard,Sydney
+0,Healthcare,C0182,Harbor Care,0,0.9,0.0999998,39,5570,2,Standard,Sydney
+1,Manufacturing,C0184,Magnolia Manufacturing,0,0.991628,0.00837199,30,27930,3,Premium,Sydney
+0,Technology,C0188,Juniper Systems,0,0.991437,0.00856288,43,30210,3,Enterprise,Sydney
+0,Manufacturing,C0202,Olive Industries,0,0.993188,0.00681185,49,32590,3,Enterprise,Sydney
+0,Finance,C0206,Nimbus Partners,0,0.825336,0.174664,12,6320,2,Standard,Sydney
+1,Media,C0211,Onyx Broadcast,0,0.911161,0.0888393,26,7390,3,Premium,San Francisco
+1,Logistics,C0216,Apex Supply,1,0.483308,0.516692,15,4820,2,Standard,San Francisco
+0,Healthcare,C0225,Northwind Therapeutics,0,0.769636,0.230364,30,6730,1,Standard,Sydney
+1,Education,C0226,Quartz Institute,1,0.248008,0.751992,14,1150,2,Basic,San Francisco
+0,Media,C0236,Atlas Media,0,0.995276,0.00472395,56,25910,3,Premium,Sydney
+1,Technology,C0243,Radiant Labs,0,0.671626,0.328374,11,6170,1,Standard,Sydney
+0,Media,C0259,Foothill Studios,0,0.992573,0.00742685,34,20870,3,Premium,Singapore
+0,Technology,C0275,Cardinal Digital,0,0.993718,0.00628241,59,27730,3,Enterprise,Sydney
+0,Finance,C0276,Sterling Trust,0,0.798446,0.201554,12,1180,2,Standard,Sydney
+0,Energy,C0278,Summit Energy,0,0.989679,0.0103213,44,23990,3,Enterprise,Sydney
