@@ -1,0 +1,14 @@
+name,1
+string,continuous
+meta,
+intercept,0.73227
+tenure_months,-0.0398889
+monthly_recurring_revenue,4.01709e-06
+product_count,-0.713382
+support_tier=Basic,1.21178
+support_tier=Enterprise,-0.830749
+support_tier=Premium,-0.659353
+support_tier=Standard,0.266453
+region=San Francisco,1.18758
+region=Singapore,-0.771998
+region=Sydney,-0.427454
