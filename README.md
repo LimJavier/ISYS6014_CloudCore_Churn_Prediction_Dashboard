@@ -10,16 +10,19 @@ A Streamlit dashboard for the CloudCore Networks Assessment 3 project. It shows 
 | Group_Dashboard (`.ipynb`) | Runs the dashboard in Google Colab through ngrok |
 | `README.md` | These instructions |
 | `cloudcore_churn_predictions.csv` | The Orange Logistic Regression model prediction output to feed into the dashboard | 
+| `cloudcore_lr_coefficients.csv` | The Logistic Regression coefficients, used for the "main factors" |
 
-## The data file
+## The two data files
 
 ```
 cloudcore_churn_predictions.csv
+cloudcore_lr_coefficients.csv
 ```
 
-This is the exact file name `app.py` reads, so keep it the same. If your copy has a different name (for example `customer_churn_prediction.csv`), rename it, or change the file name in `load_data()` in `app.py`.
+These are the exact file names `app.py` reads, so keep it the same. If your copy has a different name (for example `customer_churn_prediction.csv`), rename it, or change the file name in `load_data()` in `app.py`.
 
 Put the CSV in the same folder as `app.py`. It needs these columns: `customer_id`, `company_name`, `region`, `support_tier`, `tenure_months`, `monthly_recurring_revenue`, `product_count`, `churn_flag`, `Logistic Regression`, `Logistic Regression (0)` and `Logistic Regression (1)`. Orange adds two extra header rows under the column names, and the app skips them.
+If the coefficients file is missing, the app still runs, but the factors panel says "approximate" and uses a replica of the model instead of Orange's coefficients.
 
 ## Run in Google Colab
 
@@ -47,5 +50,5 @@ ngrok.set_auth_token(userdata.get("NGROK_TOKEN"))
 ## Things to know
 
 - The probabilities are out-of-fold predictions from the Orange model on the historical extract. They are not live scoring of new customers.
-- The "main factors" come from a replica of the Logistic Regression built inside the app, so they are approximate.
+- The "main factors" use the coefficients of the Orange Logistic Regression, which were fitted on all customers, so they differ slightly from the out-of-fold probabilities. They show association in this data, not what causes churn.
 - The review log lasts only for the current session. Download it before closing the app.
